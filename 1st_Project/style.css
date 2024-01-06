@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(./Source/Image/pexels-maxyne-barcel-10402282\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container{
+    height: 97vh;
+}
+
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 70px;
+    flex-wrap: no-wrap;
+}
+
+.main{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.footer{
+    height: 127px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.box{
+    height: 80px;
+    width: 80px;
+}
+
+.aside-left, .aside-right{
+    width: 100px;
+}
+
+.navbar{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-list{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-list > a{
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #694706;
+}
+
+.first-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.aside-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-btn{
+    background-color: rgb(233, 37, 95);
+    color: #ffffff;
+    height: 30px;
+    width: 75px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.first, .sec, .third{
+    color: #694706;
+    font-size: 50px;
+}
+
+.sec-btn{
+    background-color: rgb(233, 37, 95);
+    color: #ffffff;
+    height: 50px;
+    width: 170px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-right{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img{
+    width: 100px;
+}
